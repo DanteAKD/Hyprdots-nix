@@ -16,10 +16,49 @@
 
 // positions generated based on config.ctl //
 
-	"modules-left": ["custom/padd","custom/l_end","custom/logo","custom/r_end",
-    "custom/l_end","hyprland/workspaces","custom/r_end","custom/l_end","cpu","memory","custom/r_end","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","hyprland/window","custom/r_end","custom/padd"],
-	"modules-right": ["custom/padd","custom/l_end","tray","custom/r_end","custom/l_end","network","bluetooth","pulseaudio","pulseaudio#microphone","custom/r_end","custom/l_end","backlight","battery","custom/r_end","custom/l_end","idle_inhibitor","clock","custom/r_end","custom/padd","custom/launcher","custom/padd","custom/padd"],
+	"modules-left": [
+    "custom/padd",
+    "custom/padd",
+    "custom/logo",
+    "custom/padd",
+    "custom/l_end",
+    "hyprland/workspaces",
+    "custom/r_end",
+    "custom/l_end",
+    "cpu",
+    "memory",
+    "custom/r_end",
+    "custom/padd"
+  ],
+
+	"modules-center": [
+    "custom/padd",
+    "custom/l_end",
+    "hyprland/window",
+    "custom/r_end",
+    "custom/padd"
+  ],
+
+	"modules-right": ["custom/padd",
+    "custom/l_end",
+    "tray",
+    "custom/r_end",
+    "custom/l_end",
+    "idle_inhibitor",
+    "clock",
+    "custom/r_end",
+    "custom/l_end",
+    "network",
+    "bluetooth",
+    "pulseaudio",
+    "pulseaudio#microphone",
+    "custom/r_end",
+    "custom/l_end",
+    "backlight",
+    "battery",
+    "custom/r_end",
+    "custom/padd"
+  ],
 
 
 // sourced from modules based on config.ctl //
@@ -28,7 +67,6 @@
     "format": " ",
     	"on-click": "$HOME/.config/hypr/Scripts/hints.sh",
 
-    "tooltip": true,
     /*"format": " ",*/
 },
 
@@ -40,10 +78,10 @@
         "deactivated": ""
     }
 },
-"custom/launcher": {
+/*"custom/launcher": {
     "format": "󰋄",
     "on-click": "rofi -show drun &",
-},
+},*/
 
 "cpu": {
     "interval": 1,

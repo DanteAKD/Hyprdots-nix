@@ -101,7 +101,7 @@ tooltip label {
     transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 #window,
-#custom-launcher,
+#custom-logo,
 #backlight,
 #battery,
 #bluetooth,
@@ -141,7 +141,7 @@ tooltip label {
     
 }
 
-#custom-logo {
+/*#custom-logo {
     color: #86afef;
     background: @main-bg;
     font-size: 20;
@@ -150,7 +150,7 @@ tooltip label {
     padding-left: 4px;
     padding-right: 4px;
 
-}
+}*/
 
 #tray menu *{
   color: #86afef;
@@ -181,12 +181,12 @@ tooltip label {
     padding-right: 14px;
 }
 
-#custom-launcher{
+#custom-logo{
     color:@bar-bg;
     background: #86afef;
     padding-right: 15px;
-    font-size: 17px;
-    padding-left: 12px;
+    font-size: 20px;
+    padding-left: 15px;
     border-radius: 5px;
     margin-top: 7.5px;
     margin-bottom: 7.5px;
