@@ -91,6 +91,7 @@
     mpv 
     cmus
     youtube-music
+    yt-dlp
 
     #Others  
     krita	
