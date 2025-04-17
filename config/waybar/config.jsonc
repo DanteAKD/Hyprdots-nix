@@ -23,10 +23,13 @@
 
 
 // sourced from modules based on config.ctl //
+
 "custom/logo": {
     "format": " ",
+    	"on-click": "$HOME/.config/hypr/Scripts/hints.sh",
+
+    "tooltip": true,
     /*"format": " ",*/
-    "tooltip": false
 },
 
 "idle_inhibitor": {
