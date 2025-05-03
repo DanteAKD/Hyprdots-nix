@@ -23,12 +23,6 @@ nix-channel --update
 home-manager switch
 ```
 
-If the shell shows weird characters like '5u' then execute this command:
-
-```
-set -Ux fish_features no-keyboard-protocols
-```
-
 ---
 ### Changelogs:
 
